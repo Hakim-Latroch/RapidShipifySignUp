@@ -11,7 +11,7 @@
     For a made up company, RapidShipify
     <br />
     <br />
-    <a href="#">View Demo</a>
+    <a href="https://hakim-latroch.github.io/RapidShipifySignUp/">View Demo</a>
   </p>
 </div>
 
