@@ -2,7 +2,7 @@
 <!--favicon-->
 <div align="center">
   <a href="#">
-    <img src="assets\images\favicon.png" alt="Logo" width="100">
+    <img src="assets\images\icon.png" alt="Logo" width="100">
   </a>
 
 <h3 align="center"><b>Sign-up Form</b></h3>
