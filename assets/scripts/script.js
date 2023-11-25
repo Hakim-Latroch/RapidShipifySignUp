@@ -48,7 +48,7 @@ passwordConfirm.addEventListener('keyup', (e)=>{
 submitBtn.addEventListener('click', (e)=>{
     e.preventDefault()
     if(count > 5){
-        window.location.replace("https://hakimlatroch.github.io/RapidShipifySignUp/thankYou.html")
+        window.location.replace("https://hakim-latroch.github.io/RapidShipifySignUp/thankYou.html")
     }
     else{
         for(let i=0; i<errorDisplayers.length; i++){
