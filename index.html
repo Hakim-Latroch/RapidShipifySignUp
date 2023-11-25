@@ -1,10 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
     <head> 
-
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+        <title>RapidShipify | SignUp</title>
+        <link rel="stylesheet" href="assets/styles/styles.css">
+        <script src="assets/scripts/script.js" defer></script>
     </head>
-<body>
+<body >
+  <main class="container">
     
-</body>
+    <div class="image-container">
+        <h1 class="logo">RapidShipify</h1>
+        <img src="assets/images/sammy-line-delivery-with-gps-navigation.gif" class="form-image">
+        <p class="img-text">Sign up today and enjoy swift deliveries !</p>
+        <a href="#form-wrapper"> <svg class="mobile-arrow" xmlns="http://www.w3.org/2000/svg" width="47" height="40" viewBox="0 0 47 40">
+            <path id="Polygon_1" data-name="Polygon 1" d="M19.189,7.338a5,5,0,0,1,8.622,0L42.575,32.467A5,5,0,0,1,38.263,40H8.737a5,5,0,0,1-4.311-7.533Z" transform="translate(47 40) rotate(180)" fill="#00676c"/>
+          </svg></a>
+       
+          
+    
+</div>
+    <form>
+        <div class="form-Title">
+            <h2>Let's Get Started</h2>
+        </div>
+        <div  class="form-container">
+        
+            <div class="input-wrapper">
+                <label for="First-name"></label> 
+                <input type="text" name="First-name" id="First-name" required>
+               <span>
+                    First Name
+                </span>
+                <div class="error"></div>
+            </div>
+            <div class="input-wrapper">
+                <label for="Last-name"></label>
+                <input type="text" name="Last-name" id="Last-name" required>
+                <span>
+                    Last Name
+                </span>
+                <div class="error"></div>
+            </div>
+            <div id="form-wrapper" class="input-wrapper">
+                <label for="Email"></label>
+                <input type="email" name="Email" id="Email" required>
+                <span>
+                    E-mail
+                </span>
+                <div class="error"></div>
+            </div>
+            <div class="input-wrapper">
+                <label for="Phone"></label>
+                
+                <input type="Phone" name="Phone" id="Phone" required>
+                <span>
+                    Phone
+                </span>
+                <div class="error"></div>
+            </div>
+            <div class="input-wrapper">
+                <label for="Password"></label>
+                
+                <input type="password" name="Password" id="Password" required>
+                <span>
+                    Password
+                </span>
+                <div class="error"></div></div>
+                <div class="input-wrapper">
+                    <label for="Confirm-password"></label>
+                    
+                    <input type="password" name="Confirm-password" id="Confirm-password" required>
+                    <span>
+                       Confirm Password
+                    </span>
+                    <div class="error"></div>
+                </div>
+                <div>
+                    <div class="form-footer">
+                        <input class="submit-btn" type="submit" value="Create Account">
+                        <p>Already have an account? <a href="#">LOG IN</a></p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        
+
+    </form>
+  </main>
+ </body>
 
 </html>
