@@ -1,7 +1,7 @@
 # This is a signUp page for a made up company as an assigment from theOdinProject
 <!--favicon-->
 <div align="center">
-  <a href="#">
+  <a href="https://hakim-latroch.github.io/RapidShipifySignUp/">
     <img src="assets\images\icon.png" alt="Logo" width="100">
   </a>
 
