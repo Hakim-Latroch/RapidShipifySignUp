@@ -1,4 +1,4 @@
-#This is a signUp page for a made up company as an assigment from theOdinProject
+# This is a signUp page for a made up company as an assigment from theOdinProject
 <!--favicon-->
 <div align="center">
   <a href="#">
